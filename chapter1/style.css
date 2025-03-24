@@ -1,0 +1,39 @@
+/*
+ * 
+ * This CSS rule centers the text on the page both horizontally and vertically.
+ * - The body is set to use flexbox layout.
+ * - justify-content: center centers the content horizontally.
+ * - align-items: center centers the content vertically.
+ * - height: 100vh ensures the body takes up the full viewport height.
+ * - margin: 0 removes any default margin.
+ * - font-family: Arial, sans-serif sets the font to Arial or a fallback sans-serif font.
+ * - text-align: center centers the text within its container.
+ */
+/* Center the text on the page */
+body {
+    background-color: rgb(237, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change the button color on hover */
+button:hover {
+    background: radial-gradient(circle, #f30d0d, #070707);
+}
