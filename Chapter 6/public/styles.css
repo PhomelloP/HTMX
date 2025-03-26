@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C8A2C8; /* Lilac color */
+    color: #000000; /* Black text for better contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    margin: 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text inside the container */
+}
+
+a {
+    color: #000000; /* Black links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4B0082; /* Indigo hover color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Black headings */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #000000; /* Black paragraphs */
+    line-height: 1.6;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    color: #000000; /* Black labels */
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #ffffff;
+    color: #4B0082; /* Indigo text */
+    border: 1px solid #4B0082;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4B0082;
+    box-shadow: 0 0 5px #4B0082;
+}
+
+button {
+    background-color: #4B0082; /* Indigo button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6A5ACD; /* Slightly lighter indigo */
+    color: #ffffff;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4B0082;
+}
+
+/* Removed animations */
